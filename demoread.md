@@ -1,5 +1,6 @@
-# jadaf
-description:asdjfkas
-version:asdfsd
+# j
+description:make pancakes
+version:2010
 installation: undefined
-liscense: GPL 3.0
+license: MIT
+https://github.com/ttrulock

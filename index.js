@@ -10,7 +10,6 @@ const questions = [
         type:"input",
         name:"title",
         message:"what is the title of application",
-
     },
     {
         type:"input",
@@ -23,11 +22,11 @@ const questions = [
     },
     {   type:"input",
         name:"Installation",
-        message: "Can you enter the information needed to install",
+        message: "Can you enter the information needed to install?",
     },
     {   type:"input",
-        name:"adsfa",
-        message: "When was the application created?",
+        name:"questions",
+        message: "What is your github username?",
     },
     {   type:"input",
     name:"version",
@@ -35,7 +34,7 @@ const questions = [
     },
     {   type:"list",
     name:"license",
-    message: "Please select liscence?",
+    message: "Please select licence?",
     choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
 }
 
