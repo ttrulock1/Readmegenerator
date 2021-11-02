@@ -15,6 +15,8 @@ function generateMarkdown(data) {
   return `# ${data.title}
 description:${data.description}
 version:${data.version}
+installation: ${data.installation}
+liscense: ${data.license}
 `;
 }
 

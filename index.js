@@ -20,7 +20,26 @@ const questions = [
     {   type:"input",
         name:"version",
         message: "When was the application created?",
-    }
+    },
+    {   type:"input",
+        name:"Installation",
+        message: "Can you enter the information needed to install",
+    },
+    {   type:"input",
+        name:"adsfa",
+        message: "When was the application created?",
+    },
+    {   type:"input",
+    name:"version",
+    message: "When was the application created?",
+    },
+    {   type:"list",
+    name:"license",
+    message: "Please select liscence?",
+    choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
+}
+
+
 ];
 
 // TODO: Create a function to write README file
