@@ -1,10 +1,28 @@
-# djfoskad
+# Butterfly Indentifier
+## table of contents:
+* [description](#description)
+* [license ](#license)
+* [installation](#installation)
+* [usage](#usage)
+* [contributing](#contributing)* [test](#testing)
+* [questions](#questions)
+
 ## description:
-asdfojasd
-license:MIT
-installation: adgfiohjads
-usage: sdklgjals
-license: MIT
-test: undefined
-questions: jhlsd
-https://github.com/ajdshfl
+identifies butterflies when you take a picture of them.
+##license:
+APACHE 2.0
+##installation: 
+Yes. Download app from our website then follow local instructions.
+##usage: 
+Take a picture, press submit
+##contributing: 
+Todd and Ian
+##test: 
+undefined
+##testing: 
+It has been test several times through node, etc.
+##questions: 
+There are not questions at this time.
+
+https://github.com/ttrulock
+

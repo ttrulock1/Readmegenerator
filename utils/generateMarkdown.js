@@ -32,19 +32,19 @@ function generateMarkdown(data) {
 
 ## description:
 ${data.description}
-##license:
+## license:
 ${data.license}
-##installation: 
+## installation: 
 ${data.installation}
-##usage: 
+## usage: 
 ${data.usage}
-##contributing: 
+## contributing: 
 ${data.contributing}
-##test: 
+## test: 
 ${data.test}
-##testing: 
+## testing: 
 ${data.testing}
-##questions: 
+## questions: 
 ${data.questions}
 
 https://github.com/${data.username}
