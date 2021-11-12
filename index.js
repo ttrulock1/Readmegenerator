@@ -14,30 +14,37 @@ const questions = [
     {
         type:"input",
         name:"description",
-        message: "what does your application do?",
+        message: "Describe the application and what it does?",
     },
     {   type:"input",
-        name:"version",
-        message: "When was the application created?",
-    },
-    {   type:"input",
-        name:"Installation",
+        name:"installation",
         message: "Can you enter the information needed to install?",
     },
+    {   type:"list",
+        name:"license",
+        message: "Please select licence?",
+        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3',]
+    },
+    {    type:"input",
+        name:"usage",
+        message:"How do you operate this application?",
+    },
     {   type:"input",
-        name:"questions",
+        name:"contributing",
+        message:"Who contributed to this app?",
+    },
+    {   type:"input",
+        name:"username",
         message: "What is your github username?",
     },
     {   type:"input",
-    name:"version",
-    message: "When was the application created?",
+        name: "questions",
+        message: "Do you have any questions?",
     },
-    {   type:"list",
-    name:"license",
-    message: "Please select licence?",
-    choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
-}
-
+    {   type:"input",
+        name: "testing",
+        message: "What testing has been done on this app?",
+    },
 
 ];
 
@@ -49,7 +56,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((responses)=>{
-        writeToFile("demoread.md",markdown({...responses}))
+        writeToFile("README.md",markdown(responses))
     })
 }
 
