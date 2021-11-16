@@ -1,4 +1,5 @@
-# Butterfly Indentifier
+# J
+      [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## table of contents:
 * [description](#description)
 * [license ](#license)
@@ -8,21 +9,19 @@
 * [questions](#questions)
 
 ## description:
-Indentifies buttterflies when you take a picture of them.
+d
 ## license:
 MIT
 ## installation: 
-Just go to butterflyindentifier.com and download the app from the download page.
+d
 ## usage: 
-Take a picture of butterfly press submit
+a
 ## contributing: 
-Ian and Todd
-## test: 
-undefined
+asd
 ## testing: 
-Node index test, etc.
+asdf
 ## questions: 
-no questions at this moment
+asdf
 
-https://github.com/ttrulock
+https://github.com/asf
 

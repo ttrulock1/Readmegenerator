@@ -13,14 +13,16 @@ function renderLicenseBadge(license) {
         }
   if (license === "BSD 3") {
      return "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
-          }
-  return "";
+          };
+    return ""
 }
+
 
 
 //a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+      ${renderLicenseBadge(data.license)}
 ## table of contents:
 * [description](#description)
 * [license ](#license)
@@ -40,8 +42,6 @@ ${data.installation}
 ${data.usage}
 ## contributing: 
 ${data.contributing}
-## test: 
-${data.test}
 ## testing: 
 ${data.testing}
 ## questions: 
