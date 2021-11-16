@@ -2,7 +2,7 @@
 
 NODE README GENERATOR
 
-This is the Updated README GENERATOR (2.0) developed by Todd Trulock. Everything has been corrected and detailed below, while also describing features.
+This is the Updated README GENERATOR (2.0) developed by Todd Trulock. Everything has been corrected and detailed below, while also describing features. The video demonstrating everything working can be found at https://youtu.be/VsHNrjuvDbI.
 
 HOW THE README GENERATOR WORKS:
 
