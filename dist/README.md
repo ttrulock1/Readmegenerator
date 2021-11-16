@@ -1,5 +1,5 @@
-# J
-      [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Butterfly Identifier
+      [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ## table of contents:
 * [description](#description)
 * [license ](#license)
@@ -9,19 +9,19 @@
 * [questions](#questions)
 
 ## description:
-d
+It identifies butterflies when you take a picture of them.
 ## license:
-MIT
+GPL 3.0
 ## installation: 
-d
+Just go to butterfly.com and download the app on your phone.
 ## usage: 
-a
+Take a picture and press send.
 ## contributing: 
-asd
+Todd and Ben
 ## testing: 
-asdf
+no testing thus far.
 ## questions: 
-asdf
+not at this time
 
-https://github.com/asf
+https://github.com/ttrulock1
 
